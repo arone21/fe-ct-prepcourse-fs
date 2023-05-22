@@ -11,9 +11,9 @@ function esPositivo(num) {
    if(num === 0){
       return false;
    }else if(num > 0){
-      return 'es positivo';
+      return 'Es positivo';
    }else{
-      return 'es negativo';
+      return 'Es negativo';
    }
 }
 
@@ -37,7 +37,7 @@ function obtenerSaludo(nombre) {
    // Toma el string "nombre" y concatena otra string en la cadena para que tome la siguiente forma:
    // Ejemplo: "Martin" ---> "Hola Martin!"
    // Tu código:
-   var saludo = 'hola' + ' ' + nombre + '!';
+   var saludo = 'Hola' + ' ' + nombre + '!';
    return saludo;
 }
 
