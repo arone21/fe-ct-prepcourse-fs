@@ -5,7 +5,7 @@ function devolverPrimerElemento(array) {
    // Tu código:
    return array[array.length];
 }
-console.log(devolverPrimerElemento([10, 23, 10, 16]))
+console.log(devolverPrimerElemento([10, 23, 10, 16]));
 
 function devolverUltimoElemento(array) {
    // Retornar el último elemento del arreglo recibido por parámetro.
@@ -95,7 +95,7 @@ function numeroMasGrande(arrayOfNums) {
    // Tu código:  
    return Math.max(...arrayOfNums)
 }
-console.log(numeroMasGrande([10,16,12]))
+console.log(numeroMasGrande([10,16,12]));
 
 function multiplicarArgumentos() {
    // Usa la palabra clave `arguments` para multiplicar todos los argumentos y devolver el producto.
