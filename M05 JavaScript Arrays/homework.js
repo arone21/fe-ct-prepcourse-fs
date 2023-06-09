@@ -82,11 +82,11 @@ function promedioResultadosTest(resultadosTest) {
    // Tu código:
    var resultadosTest = [3, 5, 10, 12];
 
-for(var x = 0; x < arreglo.length; x++){
-  resultadosTest += arreglo[x];
-}
-var promedio = resultadosTest / arreglo.length;
-return promedio;
+   for(var x = 0; x < arreglo.length; x++){
+        resultadosTest += arreglo[x];
+   }
+   var promedio = resultadosTest / arreglo.length;
+   return promedio;
 }
 
 function numeroMasGrande(arrayOfNums) {
