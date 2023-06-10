@@ -25,7 +25,9 @@ function agregarPropiedad(objeto, propiedad) {
    // Esta propiedad será igual al valor `null`.
    // Retornar el objeto.
    // Tu código:
-
+   var objeto = {
+      
+   }
 }
 
 function invocarMetodo(objeto, metodo) {
@@ -54,18 +56,26 @@ function tieneEmail(objetoUsuario) {
    // Verifica si el "objetoUsuario", en su propiedad "email", posee un valor definido.
    // En ese caso retornar true. Caso contrario, false.
    // Tu código:
+   let objetoUsuario = {email: "pepe22@gmail.com"};
+   if (objetoUsuario ){
+      return true;
+   }else {
+      return false;
+   }
 }
 
 function tienePropiedad(objeto, propiedad) {
    // Verifica si el objeto recibido posee una propiedad con el mismo nombre que el parámetro "propiedad".
    // En ese caso retornar true. Caso contrario, false.
    // Tu código:
+   var objeto = {};
 }
 
 function verificarPassword(objetoUsuario, password) {
    // Verifica si la propiedad "password" del "objetoUsuario" coincide con el parámetro "password".
    // En ese caso retornar true. Caso contrario, false.
    // Tu código:
+
 }
 
 function actualizarPassword(objetoUsuario, nuevaPassword) {
