@@ -93,7 +93,7 @@ function numeroMasGrande(arrayOfNums) {
    // El parámetro "arrayOfNums" es un arreglo de números.
    // Retornar el número más grande.
    // Tu código:  
-   return Math.max(...arrayOfNums)
+   return Math.max(...arrayOfNums);
 }
 console.log(numeroMasGrande([10,16,12]));
 
