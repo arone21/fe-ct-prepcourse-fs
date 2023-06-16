@@ -7,12 +7,11 @@ function crearGato(nombre, edad) {
    // La propiedad "meow" será una función que retorne el string: "Meow!".
    // Retornar el objeto.
    // Tu código:
-   var datos = {
-      nombre: 'aaron', 
-      edad: '28'
-   };
+   this.nombre = nombre;
+   this.edad = edad;
+   datos = {};
    datos.meow = ['Meow!'];
-   return datos.meow;
+   return crearGato.datos;
 }
 
 function nuevoUsuario(nombre, email, password) {
@@ -20,7 +19,11 @@ function nuevoUsuario(nombre, email, password) {
    // Este debe tener las propiedades: "nombre", "email" y "password" con sus respectivos valores.
    // Retornar el objeto.
    // Tu código:
-   var usuario = {nombre: 'aaron', email: 'arone19.agrl@gmail.com', password: '8dsjdjs'};
+   var usuario = {
+      nombre: ['aron'], 
+      email: ['arone33@gmail.com'], 
+      password: ['@d3dkss']
+   };
    return usuario;
 }
 

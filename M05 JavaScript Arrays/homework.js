@@ -109,7 +109,13 @@ function multiplicarArgumentos() {
 function cuentoElementos(array) {
    // Desarrolla una función que retorne la cantidad de elementos del arreglo cuyo valor sea mayor que 18.
    // Tu código:
-   var arrayvalor = [20, 34, 54, 30];
+   var contador = 0;
+   for ( let i = 0; i < array.length; i++){
+      if(array[i] > 18){
+         contador++;
+      }
+   }
+   return contador;
 }
 
 function diaDeLaSemana(numeroDeDia) {
@@ -171,13 +177,14 @@ function mesesDelAño(array) {
    // "Marzo" y "Noviembre", guardarlos en un nuevo arreglo y retornarlo.
    // Si alguno de los meses no está, retornar el string: "No se encontraron los meses pedidos".
    // Tu código:
-   var array = ['mayo', 'enero', 'diciembre', 'marzo', 'noviembre', 'febrero'];
-   for (let i = 0; i < array; i++){
-      if (array[i] === 'enero') {
-         return 'dsdd';
-      }
-   }
-
+   const nuevoArray = ['Marzo','Noviembre','Enero'];
+   let findEnero;
+   let findMarzo;
+   let findNoviembre;
+   array.includes('Enero')?findEnero = true:findEnero = false;
+   array.includes('Marzo')?findMarzo = true:findMarzo = false;
+   array.includes('Noviembre')?findNoviembre = true:findNoviembre = false;
+   return findEnero === true && findMarzo === true && findNoviembre === true?nuevoArray:"No se encontraron los meses pedidos";
 }
 
 function tablaDelSeis() {
