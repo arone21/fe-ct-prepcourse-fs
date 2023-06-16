@@ -101,7 +101,9 @@ function multiplicarArgumentos() {
    // Si no se pasan argumentos retorna 0. Si se pasa un argumento, simplemente retórnalo.
    // [PISTA]: "arguments" es un arreglo.
    // Tu código:
-   var argumento = [2, 5, 3, 10, 45, 20];
+   var palabra = 'arguments';
+   var palabraSeparada = palabra.split('');
+
 }
 
 function cuentoElementos(array) {
@@ -117,25 +119,25 @@ function diaDeLaSemana(numeroDeDia) {
    // Tu código:
    switch(numeroDeDia){
       case 1:
-         return 'es fin de semana';
+         return 'Es fin de semana';
          break;
       case 2:
-         return 'es dia laboral';
+         return 'Es dia laboral';
          break;
       case 3:
-         return 'es dia laboral';
+         return 'Es dia laboral';
          break;
       case 4:
-         return 'es dia laboral';
+         return 'Es dia laboral';
          break;
       case 5:
-         return 'es dia laboral';
+         return 'Es dia laboral';
          break;
       case 6:
-         return 'es dia laboral';
+         return 'Es dia laboral';
          break;
       case 7:
-         return 'es fin de semana';
+         return 'Es fin de semana';
          break;
       default:
          return false;         
@@ -169,7 +171,12 @@ function mesesDelAño(array) {
    // "Marzo" y "Noviembre", guardarlos en un nuevo arreglo y retornarlo.
    // Si alguno de los meses no está, retornar el string: "No se encontraron los meses pedidos".
    // Tu código:
-   var arrayAño = [enero, febrero, marzo, abril, noviembre, diciembre];
+   var array = ['mayo', 'enero', 'diciembre', 'marzo', 'noviembre', 'febrero'];
+   for (let i = 0; i < array; i++){
+      if (array[i] === 'enero') {
+         return 'dsdd';
+      }
+   }
 
 }
 
