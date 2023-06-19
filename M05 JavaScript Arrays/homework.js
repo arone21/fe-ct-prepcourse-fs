@@ -50,7 +50,7 @@ function dePalabrasAFrase(palabras) {
    // con un espacio entre cada palabra.
    // Ejemplo: ['Hello', 'world!'] -> 'Hello world!'.
    // Tu código:
-   return words.join(' ');
+   return palabras.join(' ');
 }
 
 function arrayContiene(array, elemento) {
@@ -79,12 +79,10 @@ function promedioResultadosTest(resultadosTest) {
    // El parámetro "resultadosTest" es un arreglo de números.
    // Itera (en un bucle) los elementos del arreglo y devuelve el promedio de las notas.
    // Tu código:
-   var resultadosTest = [3, 5, 10, 12];
-
-   for(var x = 0; x < arreglo.length; x++){
+   for(var x = 0; x < array.length; x++){
         resultadosTest += arreglo[x];
    }
-   var promedio = resultadosTest / arreglo.length;
+   var promedio = resultadosTest / array.length;
    return promedio;
 }
 
@@ -101,9 +99,11 @@ function multiplicarArgumentos() {
    // Si no se pasan argumentos retorna 0. Si se pasa un argumento, simplemente retórnalo.
    // [PISTA]: "arguments" es un arreglo.
    // Tu código:
-   var palabra = 'arguments';
-   var palabraSeparada = palabra.split('');
-
+   var suma = 0;
+   for (var i=0; i < 10; i++){
+      suma = suma + i;
+      return suma / 5;
+   }
 }
 
 function cuentoElementos(array) {
@@ -165,11 +165,7 @@ function todosIguales(array) {
    // Si todos los elementos del arreglo son iguales, retornar true.
    // Caso contrario retornar false.
    // Tu código:
-   if(array === 0){
-      return true;
-   }else{
-      return false;
-   }
+   
 }
 
 function mesesDelAño(array) {

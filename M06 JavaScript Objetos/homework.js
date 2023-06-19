@@ -7,11 +7,12 @@ function crearGato(nombre, edad) {
    // La propiedad "meow" será una función que retorne el string: "Meow!".
    // Retornar el objeto.
    // Tu código:
-   this.nombre = nombre;
-   this.edad = edad;
-   datos = {};
-   datos.meow = ['Meow!'];
-   return crearGato.datos;
+   datos = {
+      nombre: 'aaron',
+      edad: 28,
+      meow: 'Meow!'
+   };
+   return crearGato.datos.meow;
 }
 
 function nuevoUsuario(nombre, email, password) {
@@ -20,11 +21,11 @@ function nuevoUsuario(nombre, email, password) {
    // Retornar el objeto.
    // Tu código:
    var usuario = {
-      nombre: ['aron'], 
-      email: ['arone33@gmail.com'], 
-      password: ['@d3dkss']
+      nombre: 'aron', 
+      email: 'arone33@gmail.com', 
+      password: '@d3dkss'
    };
-   return usuario;
+   return nuevoUsuario.usuario;
 }
 
 function agregarPropiedad(objeto, propiedad) {
@@ -33,9 +34,9 @@ function agregarPropiedad(objeto, propiedad) {
    // Esta propiedad será igual al valor `null`.
    // Retornar el objeto.
    // Tu código:
-   var objeto = {
-      
-   }
+   this.propiedad = null;
+   var objeto = new agregarPropiedad();
+   return objeto;
 }
 
 function invocarMetodo(objeto, metodo) {
@@ -43,7 +44,7 @@ function invocarMetodo(objeto, metodo) {
    // Esta propiedad contiene una función en su interior. Debes invocarla/ejecutarla.
    // [NOTA]: no necesitar retornar nada.
    // Tu código:
-
+   
 }
 
 function multiplicarNumeroDesconocidoPorCinco(objetoMisterioso) {
