@@ -70,14 +70,19 @@ function colors(color) {
    switch(color){
       case 'blue':
          return 'This is blue';
+         break;
       case 'red':
          return 'This is red';
+         break;
       case 'green':
          return 'This is green';
+         break;
       case 'orange':
          return 'This is orange';
+         break;
       default:
          return 'Color not found';
+         break;
    }
 }
 
@@ -127,7 +132,7 @@ function fizzBuzz(num) {
       return 'fizz';
    }else if(num % 5 === 0){
       return 'buzz';
-   }else if(num % 3 === 0 && num % 5 === 0){
+   }else if(num % 3 === 0 || num % 5 === 0){
       return 'fizzbuzz';
    }else{
       return false;
@@ -149,7 +154,7 @@ function operadoresLogicos(num1, num2, num3) {
     } else if (num1 < 0 || num2 < 0 || num3 < 0 ) {
       return "Hay negativos";
     } else if (num3 > num1 && num3 > num2) {
-      num3 =+ 1;
+      num3 += 1;
       return num3;
     } else {
       return false;
